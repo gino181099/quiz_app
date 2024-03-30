@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+div.ocultar {
+  display: none;
+}
+.margin16 {
+  margin-top: 16px !important;
+}
+.smooth {
+  transition-timing-function: ease-in;
+  animation-timing-function: ease-in;
+}
+.options > button:hover,
+.options button:active {
+  background-color: #ff5733;
+}
+@media (max-width: 640px) {
+  .adapt {
+    width: 90% !important;
+  }
+  .adapt2 {
+    width: 100% !important;
+    margin: 0;
+    padding: 0;
+    display: block;
+    box-sizing: border-box;
+  }
+}
+.an {
+  opacity: 0;
+  transform: translateY(5%);
+  animation: 0.5s ease-in 0s 1 normal forwards running opacity;
+}
+.anBorder {
+  opacity: 0;
+  transform: translateY(5%);
+  border-color: white;
+  animation: 0.5s ease-in 0s 1 normal forwards running opacity,
+    0.25s ease-in 1.75s 1 normal forwards running opacityBorder;
+}
+.an2 {
+  opacity: 0;
+  transform: translateY(5%);
+  animation: 0.5s ease-in 0.5s 1 normal forwards running opacity;
+}
+.an3 {
+  opacity: 0;
+  transform: translateY(5%);
+  animation: 0.1s ease-in 0s 1 normal forwards running opacity;
+}
+@keyframes opacity {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@keyframes opacityBorder {
+  to {
+    border-color: black;
+  }
+}
