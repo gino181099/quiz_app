@@ -11,8 +11,8 @@ div.ocultar {
   transition-timing-function: ease-in;
   animation-timing-function: ease-in;
 }
-.options > button:hover,
-.options button:active {
+.options button:hover,
+.options button:active, .options button:focus {
   background-color: #ff5733;
 }
 @media (max-width: 640px) {
