@@ -99,8 +99,11 @@ export function HomeComponent({ className, all, set }) {
         ) : (
           ""
         )}
-        <Button className="w-full an2" onClick={refresh}>
-          <RotateCw className="mr-2 h-4 w-4" /> Recargar el sitio
+        <Button
+          className="w-full an2 whitespace-normal h-fit"
+          onClick={refresh}
+        >
+          <RotateCw className="mr-2 h-4 w-4 " /> Recargar el sitio
         </Button>
       </CardFooter>
     </Card>

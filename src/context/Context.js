@@ -33,7 +33,7 @@ const Provider = ({ children }) => {
     18: false,
     19: false,
     20: false,
-    time: 1000,
+    time: 2000,
     limit1: 20,
     limit2: 5,
   });

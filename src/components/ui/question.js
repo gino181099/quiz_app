@@ -196,28 +196,28 @@ export function Question({
         </CardContent>
         <CardFooter className="flex flex-col gap-4 options">
           <Button
-            className="w-full"
+            className="w-full whitespace-normal h-fit"
             variant="secondary"
             onClick={() => nextQuestion(1)}
           >
             {one}
           </Button>
           <Button
-            className="w-full"
+            className="w-full whitespace-normal h-fit"
             variant="secondary"
             onClick={() => nextQuestion(2)}
           >
             {two}
           </Button>
           <Button
-            className="w-full"
+            className="w-full whitespace-normal h-fit"
             variant="secondary"
             onClick={() => nextQuestion(3)}
           >
             {three}
           </Button>
           <Button
-            className="w-full"
+            className="w-full whitespace-normal h-fit"
             variant="secondary"
             onClick={() => nextQuestion(4)}
           >
