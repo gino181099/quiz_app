@@ -1,22 +1,20 @@
 export default {
   1: {
     title: "Selecciona la opción correcta",
-    desc: "¿Cómo definirías al objeto formal y material en el ámbito de la ciencia?",
-    one: "El objeto material es aquello de lo que trata una disciplina y el formal, la perspectiva o problema que se plantea respecto del objeto material.",
-    two: "El objeto material se refiere al material físico con el que se construye un objeto. El objeto formal, es la estructura que toma ese material.",
-    three:
-      "El objeto material se refiere al material físico con el que se construye un objeto. El objeto formal, es simplemente una etiqueta que se le da a algo para clasificarlo.",
-    four: "El objeto material es cualquier cosa física que puedas tocar. El objeto formal es la perspectiva o problema que se plantea respecto del objeto material.",
+    desc: "¿Qué es el objeto material?",
+    one: "Es aquello de lo que trata una disciplina.",
+    two: "Se refiere al material físico con el que se construye un objeto.",
+    three: "Es simplemente una clasificación.",
+    four: "Es la perspectiva o problema que se plantea respecto del objeto.",
     true: 1,
   },
   2: {
     title: "Selecciona la opción correcta",
-    desc: "¿Cuál podría definirse cómo objeto formal y material de la gestión de personal?",
-    one: "El objeto material es el recurso humano dentro de una organización. El objeto formal es la perspectiva o problema que se plantea respecto al recurso humano en la organización.",
-    two: "El objeto material de la gestión de personal son las personas. El objeto formal es el criterio de departamentalización.",
-    three:
-      "El objeto material de la gestión de personal se refiere a las tareas y funciones del departamento de recursos humanos. El objeto formal es el criterio de departamentalización.",
-    four: "El objeto formal de la gestión de personal se refiere a su ámbito de acción y propósito. El objeto material de la gestión de personal son las personas.",
+    desc: "Objeto formal de la gestión de personal",
+    one: "Es la perspectiva o problema que se plantea respecto al recurso humano en la organización.",
+    two: "Es el criterio de departamentalización.",
+    three: "Se refiere a su ámbito de acción y propósito.",
+    four: "Son las personas.",
     true: 1,
   },
   3: {
@@ -48,11 +46,10 @@ export default {
   },
   6: {
     title: "Selecciona la razon",
-    desc: "Selecciona una de las principales razones de la creciente importancia de la gestión del personal.",
-    one: "La gestión del personal se ha vuelto más importante debido al auge de las empresas tecnológicas unicornio.",
-    two: "En la era de las redes sociales, la gestión del personal se ha vuelto crucial debido a la creciente influencia de los memes.",
-    three:
-      "En los últimos años, el mundo ha experimentado cambios profundos debido a la globalización.",
+    desc: "Selecciona una de las principales razones de la creciente importancia de la gestión del personal en las últimas décadas.",
+    one: "Las empresas unicornio.",
+    two: "Creciente influencia de los memes.",
+    three: "La globalización.",
     four: "Ninguna de las anteriores.",
     true: 3,
   },
@@ -95,21 +92,20 @@ export default {
   11: {
     title: "Selecciona el enunciado correcto",
     desc: "El ciclo motivacional",
-    one: "Comienza con la aparición de una necesidad, una fuerza persistente que impulsa el comportamiento.",
-    two: "Ofrece una perspectiva interesante sobre la relación entre el dinero y el desempeño en el trabajo.",
+    one: "Comienza con la aparición de una necesidad.",
+    two: "Analiza la relación entre el dinero y el desempeño en el trabajo.",
     three:
-      "Se centra en dos categorías principales que afectan la satisfacción y la insatisfacción en el trabajo: los factores higiénicos y los factores motivacionales.",
-    four: "Reconoce que no hay una única manera de motivar a las personas y que la motivación puede variar según la situación individual.",
+      "Analiza la satisfacción mediante los factores higiénicos y motivacionales.",
+    four: "Reconoce que la motivación puede variar según la situación.",
     true: 1,
   },
   12: {
     title: "Selecciona la opción correcta",
     desc: "¿Cuál de las siguientes premisas no causa frustración en el entorno laboral?",
-    one: "Demasiada carga de trabajo: La sobrecarga de trabajo puede agotar a los empleados y afectar su bienestar.",
-    two: "Falta de control o autonomía: Cuando los empleados sienten que no tienen control sobre su trabajo o no pueden tomar decisiones importantes.",
-    three:
-      "Falta de reconocimiento y aprecio: La falta de reconocimiento por el esfuerzo y los logros.",
-    four: "El efecto del café descafeinado: La falta de cafeína en el café descafeinado está directamente relacionada con la frustración en el trabajo.",
+    one: "Demasiada carga de trabajo.",
+    two: "Falta de control o autonomía.",
+    three: "Falta de reconocimiento y aprecio.",
+    four: "El efecto del café descafeinado.",
     true: 4,
   },
   13: {
@@ -133,31 +129,28 @@ export default {
   15: {
     title: "Selecciona la opción correcta",
     desc: "¿Qué es un dato?",
-    one: "Es la representación de un registro objetivo de un evento o suceso específico.",
-    two: "Conjunto de saberes que han sido procesados y que tienen un significado específico.",
-    three:
-      "Es el proceso mediante el cual la información se transmite de un emisor a uno o más receptores.",
-    four: "Es una propiedad observable o evento que se manifiesta.",
+    one: "Es la representación de un evento o suceso.",
+    two: "Conjunto de saberes.",
+    three: "Proceso de transmisión de información.",
+    four: "Es una propiedad observable.",
     true: 1,
   },
   16: {
     title: "Selecciona la opción correcta",
     desc: "¿Cuál de las siguientes opciones es un tipo de barrera en la comunicación?",
-    one: "Barreras personales: Estas barreras surgen de las limitaciones individuales, emociones y valores de cada persona.",
-    two: "Barreras físicas: Se refieren a las interferencias en el entorno físico donde tiene lugar la comunicación.",
-    three:
-      "Barreras semánticas: Estas barreras se relacionan con las limitaciones o distorsiones en el significado de los símbolos utilizados en la comunicación.",
+    one: "Barreras personales.",
+    two: "Barreras físicas.",
+    three: "Barreras semánticas.",
     four: "Todas las anteriores.",
     true: 4,
   },
   17: {
     title: "Selecciona la opción correcta",
     desc: "Además de estas barreras, la comunicación también puede sufrir problemas adicionales, ¿Cuál no lo es?",
-    one: "Omisiones: Cuando elementos importantes del mensaje son omitidos o cortados.",
-    two: "Distorsiones: Cuando el mensaje experimenta cambios o alteraciones.",
-    three:
-      "El dilema de la jerga corporativa: A veces, la comunicación se ve afectada por el uso excesivo de jerga o términos técnicos específicos de una industria o empresa.",
-    four: "Sobrecarga: Ocurre cuando la cantidad de información es demasiado grande para que el destinatario la procese eficazmente.",
+    one: "Omisiones.",
+    two: "Distorsiones.",
+    three: "Jerga corporativa.",
+    four: "Sobrecarga.",
     true: 3,
   },
   18: {
@@ -181,11 +174,10 @@ export default {
   20: {
     title: "Selecciona el consejo",
     desc: "¿Cuál de las siguientes opciones es un consejo sobre el lenguaje corporal con las manos?",
-    one: "Deben tener movimientos libres y no tapar el rostro de la persona con la que se está interactuando para que se sienta cómoda.",
-    two: "Deben permanecer lo más relajadas posibles y de ser posible ocultas a la vista de la persona con la que interactuamos.",
-    three:
-      "Deben permanecer inquietas con movimientos frenéticos de modo que el receptor se sienta intimidado por nuestra presencia.",
-    four: "Deben permanecer lo más relajadas posibles, haciendo gestos de calma en todo momento de ser posible.",
+    one: "Deben tener movimientos libres y no tapar el rostro de la persona con la que se está interactuando.",
+    two: "Deben permanecer lo más relajadas posibles y ocultas.",
+    three: "Deben permanecer inquietas con movimientos frenéticos.",
+    four: "Deben permanecer lo más relajadas posibles, haciendo gestos de calma.",
     true: 1,
   },
 };
