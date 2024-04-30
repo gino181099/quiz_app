@@ -22,12 +22,11 @@ const notifications = [
   },
   {
     title: "Tienes tiempo límite",
-    description: "Máximo de 10 segundos",
+    description: "Máximo de 15 segundos",
   },
   {
     title: "No cierres la página",
-    description:
-      "Son 2 quiz distintos, debes esperar a que se habiliten para poder jugar",
+    description: "Debes esperar a que se habilite para poder jugar",
   },
 ];
 
