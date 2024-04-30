@@ -91,13 +91,12 @@ export default {
   },
   11: {
     title: "Selecciona el enunciado correcto",
-    desc: "El ciclo motivacional",
-    one: "Comienza con la aparición de una necesidad.",
-    two: "Analiza la relación entre el dinero y el desempeño en el trabajo.",
-    three:
-      "Analiza la satisfacción mediante los factores higiénicos y motivacionales.",
-    four: "Reconoce que la motivación puede variar según la situación.",
-    true: 1,
+    desc: "La teoría de Herzberg se centra en:",
+    one: "La aparición de una necesidad.",
+    two: "La relación entre el dinero y el desempeño en el trabajo.",
+    three: "La satisfacción mediante los factores higiénicos y motivacionales.",
+    four: "Que la motivación puede variar según la situación.",
+    true: 3,
   },
   12: {
     title: "Selecciona la opción correcta",
@@ -112,7 +111,7 @@ export default {
     title: "Selecciona la opción correcta",
     desc: "¿Iacocca era un importante ejecutivo de qué compañía?",
     one: "General Motors.",
-    two: "Ford.",
+    two: "Jaguar.",
     three: "Chrysler.",
     four: "Toyota.",
     true: 3,
